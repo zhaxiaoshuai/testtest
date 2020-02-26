@@ -1,0 +1,11 @@
+先查看 ../shop_ui/ui.pdf
+如果按照文档步骤来 报node-sass错误的话
+1.查看当前环境使用的 'binding.node' 版本
+node -p "[process.platform, process.arch, process.versions.modules].join('-')"
+以这台电脑输入上一行命令输出： 'win32-x64-72'
+
+2.去下方网址搜索你上一个步骤出来的结果 下载对应的 'win32-x64-72_binding.node'
+https://github.com/sass/node-sass/releases
+下载完成之后，将刚才下载的文件名修改成 binding.node
+复制到这个路径下(哪个三端项目缺少，复制进去即可)
+shop_ui\ui\buyer\pc\node_modules\node-sass\vendor\win32-x64-72
