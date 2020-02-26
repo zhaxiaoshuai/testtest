@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "ajv": "^6.10.0",
-    "axios": "0.17.1",
+    "axios": "0.19.2",
     "codemirror": "5.32.0",
     "dropzone": "5.2.0",
     "echarts": "3.8.5",
