@@ -21,7 +21,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.19.2",
     "babel-core": "^6.26.3",
     "babel-plugin-component": "1.1.0",
     "babel-polyfill": "^6.26.0",
